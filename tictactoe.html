@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>My Own Tic Tac Toe Game</title>
+        
+        <style>
+            .container {
+                height: auto;
+                text-align: center;
+                width: 100%;
+            }
+            .box {
+                /* border: 2px solid green; */
+                height: auto;
+                width: 513px;
+                display: inline-block;
+            }
+            .smallbox{
+                /* border: 1px solid red; */
+                float: left;
+                width: 169px;
+                height: 150px;
+                font-family: Arial;
+                font-size: 75pt;
+                padding-top: 7%;
+                /* padding-bottom: 5%; */
+            }
+            .s1 , .s0, .s3, .s4, .s6, .s7 {
+                border-right: 2px solid black;
+            }
+            .s3, .s5, .s6, .s4, .s7, .s8 {
+                border-top: 2px solid black;
+            }
+            .append{
+                font-family: Consolas;
+                font-size: 24pt;
+                background-color: orangered;
+                width: 513px;
+                color: white;
+            }
+            .title {
+                font-family: Consolas;
+                font-size: 24pt;
+                /* background-color: orangered; */
+                width: 513px;
+                color: black;
+                padding-top: 3%;
+                padding-bottom: 5%;
+            }
+        </style>
+
+    </head>
+<body>
+    <div class="container">
+        
+        <div class="box">
+            <div class="title">Tic Tac Toe</div>
+            <div class="append"></div>
+            <div class="smallbox s0"></div>
+            <div class="smallbox s1"></div>
+            <div class="smallbox s2"></div>
+            <div class="smallbox s3"></div>
+            <div class="smallbox s4"></div>
+            <div class="smallbox s5"></div>
+            <div class="smallbox s6"></div>
+            <div class="smallbox s7"></div>
+            <div class="smallbox s8"></div>
+        </div>
+    </div>
+
+    <script src="tictacScript.js">
+    </script>
+</body>
+</html>
